@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/test_motor.dir/test_motor_cmd.o  -o test_motor -lour_hw_sdk -lasio -lThreads::Threads -lyaml-cpp 

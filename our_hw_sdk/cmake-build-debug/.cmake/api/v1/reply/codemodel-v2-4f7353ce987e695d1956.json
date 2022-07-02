@@ -1,0 +1,121 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "3rdparty/asio",
+					"jsonFile" : "directory-3rdparty.asio-Debug-aa643a1307c433a33373.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "3rdparty/asio"
+				},
+				{
+					"build" : "src/tests/devel_tests",
+					"jsonFile" : "directory-src.tests.devel_tests-Debug-02f8848c70654339313e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/tests/devel_tests",
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						2
+					],
+					"name" : "our_hw_sdk",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "asio",
+					"parentIndex" : 0
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "our_hw_sdk::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-our_hw_sdk-Debug-e536e93d1a21ef27a0dc.json",
+					"name" : "our_hw_sdk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "test_motor::@ca135ab7905787347747",
+					"jsonFile" : "target-test_motor-Debug-8cf19fcf31a7e2c7a660.json",
+					"name" : "test_motor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "test_serial_card::@ca135ab7905787347747",
+					"jsonFile" : "target-test_serial_card-Debug-b57ea3ff0b5a0c9389f5.json",
+					"name" : "test_serial_card",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/cmake-build-debug",
+		"source" : "/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="asio"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\3rdparty\;CMake Files\3rdparty\asio\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\yaml-cpp\;CMake Files\src\;CMake Files\src\tests\;CMake Files\src\tests\devel_tests\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/cmake-build-debug/3rdparty/asio"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/cmake-build-debug/3rdparty/asio/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/cmake-build-debug/3rdparty/asio/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/cmake-build-debug/3rdparty/asio/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/cmake-build-debug/3rdparty/asio/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/3rdparty/asio/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rdparty\asio\"/>
+		</Unit>
+		<Unit filename="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/yaml-cpp/yaml-cpp-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\yaml-cpp\"/>
+		</Unit>
+		<Unit filename="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/yaml-cpp/yaml-cpp-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\yaml-cpp\"/>
+		</Unit>
+		<Unit filename="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/yaml-cpp/yaml-cpp-targets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\yaml-cpp\"/>
+		</Unit>
+		<Unit filename="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/yaml-cpp/yaml-cpp-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\yaml-cpp\"/>
+		</Unit>
+		<Unit filename="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/src/tests/devel_tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\tests\devel_tests\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

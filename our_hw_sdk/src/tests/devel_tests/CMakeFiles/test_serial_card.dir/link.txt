@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/test_serial_card.dir/test_serial_communication_card.o  -o test_serial_card -lour_hw_sdk -lasio -lThreads::Threads -lyaml-cpp 

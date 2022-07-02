@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="our_hw_sdk"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\3rdparty\;CMake Files\3rdparty\asio\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\yaml-cpp\;CMake Files\src\;CMake Files\src\tests\;CMake Files\src\tests\devel_tests\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="our_hw_sdk">
+				<Option output="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/cmake-build-debug/libour_hw_sdk.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DASIO_STANDALONE"/>
+					<Add directory="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/include"/>
+					<Add directory="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/src"/>
+					<Add directory="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/3rdparty/asio/include"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 our_hw_sdk"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="our_hw_sdk/fast">
+				<Option output="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/cmake-build-debug/libour_hw_sdk.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DASIO_STANDALONE"/>
+					<Add directory="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/include"/>
+					<Add directory="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/src"/>
+					<Add directory="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/3rdparty/asio/include"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 our_hw_sdk/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_motor">
+				<Option output="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/cmake-build-debug/src/tests/devel_tests/test_motor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/cmake-build-debug/src/tests/devel_tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DASIO_STANDALONE"/>
+					<Add directory="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/src/tests/devel_tests/../.."/>
+					<Add directory="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/src/tests/devel_tests/../../../include"/>
+					<Add directory="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/src/tests/devel_tests/../../../3rdparty/asio/include"/>
+					<Add directory="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/include"/>
+					<Add directory="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/src"/>
+					<Add directory="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/3rdparty/asio/include"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/cmake-build-debug/src/tests/devel_tests/Makefile&quot;  VERBOSE=1 test_motor"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/cmake-build-debug/src/tests/devel_tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/cmake-build-debug/src/tests/devel_tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/cmake-build-debug/src/tests/devel_tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_motor/fast">
+				<Option output="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/cmake-build-debug/src/tests/devel_tests/test_motor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/cmake-build-debug/src/tests/devel_tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DASIO_STANDALONE"/>
+					<Add directory="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/src/tests/devel_tests/../.."/>
+					<Add directory="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/src/tests/devel_tests/../../../include"/>
+					<Add directory="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/src/tests/devel_tests/../../../3rdparty/asio/include"/>
+					<Add directory="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/include"/>
+					<Add directory="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/src"/>
+					<Add directory="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/3rdparty/asio/include"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/cmake-build-debug/src/tests/devel_tests/Makefile&quot;  VERBOSE=1 test_motor/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/cmake-build-debug/src/tests/devel_tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/cmake-build-debug/src/tests/devel_tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/cmake-build-debug/src/tests/devel_tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_serial_card">
+				<Option output="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/cmake-build-debug/src/tests/devel_tests/test_serial_card" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/cmake-build-debug/src/tests/devel_tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DASIO_STANDALONE"/>
+					<Add directory="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/src/tests/devel_tests/../.."/>
+					<Add directory="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/src/tests/devel_tests/../../../include"/>
+					<Add directory="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/src/tests/devel_tests/../../../3rdparty/asio/include"/>
+					<Add directory="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/include"/>
+					<Add directory="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/src"/>
+					<Add directory="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/3rdparty/asio/include"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/cmake-build-debug/src/tests/devel_tests/Makefile&quot;  VERBOSE=1 test_serial_card"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/cmake-build-debug/src/tests/devel_tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/cmake-build-debug/src/tests/devel_tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/cmake-build-debug/src/tests/devel_tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_serial_card/fast">
+				<Option output="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/cmake-build-debug/src/tests/devel_tests/test_serial_card" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/cmake-build-debug/src/tests/devel_tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DASIO_STANDALONE"/>
+					<Add directory="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/src/tests/devel_tests/../.."/>
+					<Add directory="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/src/tests/devel_tests/../../../include"/>
+					<Add directory="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/src/tests/devel_tests/../../../3rdparty/asio/include"/>
+					<Add directory="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/include"/>
+					<Add directory="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/src"/>
+					<Add directory="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/3rdparty/asio/include"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/cmake-build-debug/src/tests/devel_tests/Makefile&quot;  VERBOSE=1 test_serial_card/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/cmake-build-debug/src/tests/devel_tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/cmake-build-debug/src/tests/devel_tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/cmake-build-debug/src/tests/devel_tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/src/communication/async_can.cpp">
+			<Option target="our_hw_sdk"/>
+		</Unit>
+		<Unit filename="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/src/communication/async_can.h">
+			<Option target="our_hw_sdk"/>
+		</Unit>
+		<Unit filename="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/src/communication/async_listener_interface.hpp">
+			<Option target="our_hw_sdk"/>
+		</Unit>
+		<Unit filename="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/src/communication/async_serial.cpp">
+			<Option target="our_hw_sdk"/>
+		</Unit>
+		<Unit filename="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/src/communication/async_serial.h">
+			<Option target="our_hw_sdk"/>
+		</Unit>
+		<Unit filename="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/src/communication/communication_device.hpp">
+			<Option target="our_hw_sdk"/>
+		</Unit>
+		<Unit filename="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/src/hal/motor.h">
+			<Option target="our_hw_sdk"/>
+		</Unit>
+		<Unit filename="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/src/hal/protocol/serial_port_common_def.h">
+			<Option target="our_hw_sdk"/>
+		</Unit>
+		<Unit filename="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/src/hal/serial_com_motor.cpp">
+			<Option target="our_hw_sdk"/>
+		</Unit>
+		<Unit filename="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/src/hal/serial_com_motor.h">
+			<Option target="our_hw_sdk"/>
+		</Unit>
+		<Unit filename="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/src/hal/serial_device_manager.cpp">
+			<Option target="our_hw_sdk"/>
+		</Unit>
+		<Unit filename="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/src/hal/serial_device_manager.h">
+			<Option target="our_hw_sdk"/>
+		</Unit>
+		<Unit filename="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/src/hal/stopwatch.h">
+			<Option target="our_hw_sdk"/>
+		</Unit>
+		<Unit filename="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/src/hal/user_hw/motor_cfg/RMDL_RS485_def.h">
+			<Option target="our_hw_sdk"/>
+		</Unit>
+		<Unit filename="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/src/hal/user_hw/motor_cfg/pan_tilt_motor_msg_process.h">
+			<Option target="our_hw_sdk"/>
+		</Unit>
+		<Unit filename="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/src/hal/user_hw/pan_tilt_motor.cpp">
+			<Option target="our_hw_sdk"/>
+		</Unit>
+		<Unit filename="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/src/hal/user_hw/pan_tilt_motor.h">
+			<Option target="our_hw_sdk"/>
+		</Unit>
+		<Unit filename="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/src/hal/user_hw/pan_tilt_motor_manager.cpp">
+			<Option target="our_hw_sdk"/>
+		</Unit>
+		<Unit filename="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/src/hal/user_hw/pan_tilt_motor_manager.h">
+			<Option target="our_hw_sdk"/>
+		</Unit>
+		<Unit filename="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/src/tests/devel_tests/test_motor_cmd.cpp">
+			<Option target="test_motor"/>
+		</Unit>
+		<Unit filename="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/src/tests/devel_tests/test_serial_communication_card.cpp">
+			<Option target="test_serial_card"/>
+		</Unit>
+		<Unit filename="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/3rdparty/asio/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rdparty\asio\"/>
+		</Unit>
+		<Unit filename="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/yaml-cpp/yaml-cpp-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\yaml-cpp\"/>
+		</Unit>
+		<Unit filename="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/yaml-cpp/yaml-cpp-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\yaml-cpp\"/>
+		</Unit>
+		<Unit filename="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/yaml-cpp/yaml-cpp-targets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\yaml-cpp\"/>
+		</Unit>
+		<Unit filename="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/yaml-cpp/yaml-cpp-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\yaml-cpp\"/>
+		</Unit>
+		<Unit filename="/home/lql/catkin_ws/src/robot_pan/OurRobot/our_hw_sdk/src/tests/devel_tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\tests\devel_tests\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

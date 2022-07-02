@@ -1,0 +1,123 @@
+runBase: true
+runArm: true
+runPanTilt: true
+runStopButton: true
+
+PanTiltComName: /dev/ttyUSB0
+StopButtonComName: /dev/ttyUSB1
+BaudRate: 115200
+
+baseLoopRate: 10.0
+armLoopRate: 3.0
+panTiltLoopRate: 20.0
+stopButtonLoopRate: 10.0
+
+# for wheels
+maxLinearSpeed: 0.5
+maxTurnSpeed: 0.8
+
+wheelDist: 0.407
+wheelPerimeter: 0.606
+
+#for elevator
+elevatorUnitHeight: 0.16075
+minElevatorHeight: 0.11
+maxElevatorHeight: 0.766
+
+
+#for pan and tilt
+panOffset: 0.0
+tiltOffset: 4.0
+
+#for stop button
+StopButton:
+  stopChar: 25
+  normalChar: 81
+
+########################################### Motor Parameters Explanation  ###########################################
+#
+# ******************  ATTENTION !!! Please let me known, before you modify these parameters!!!!!!!  *****************
+#
+#*********************************************************************************************************************
+#
+#  wl:                          //  name of the motor, accepted names are: wl wz ev sz sy el wy wz paw pan tilt
+#    moveType: 3                //  1: position control mode, for base wheel motors,   3: velocity contorl mode, for arm, cam, and elevator
+#    Position: 0                //  always set this parameter to 0
+#    velocity: 0                //  if moveType = 1, set this parameter to desired motor  velocity,    if moveType = 3, set this parameter to 0
+#    acceleration: 350
+#    deceleration: 350
+#    maxSpeed: 4000000
+#    maxASpeed: 500
+#    maxAngle: 0                //unused for velocity control mode
+#    minAngle: 0                //unused for velocity control mode
+#    jerk: 80000                //for all the motors set this parameter to the recommended value
+#    stopDeceleration: 50000    //for all the motors set this parameter to the recommended value
+#    poseRelative: false        //for all the motors set this parameter to the recommended value
+#    coefficient: 1                 // 1  or -1 , indicate weather to multiply -1 to the cmds and feedback
+#
+
+#############################    Cam    #############################
+# for cam motors
+
+pan:
+  serial_id: 1
+  position_offset: 0
+  velocity: 800
+  maxSpeed: 800
+  maxASpeed: 300
+  maxAngle: 88
+  minAngle: -88
+  coefficient: 1
+  position_Kp: 100
+  position_Ki: 20
+  velocity_Kp: 100
+  velocity_Ki: 20
+  current_Kp: 100
+  current_Ki: 20
+
+tilt:
+  serial_id: 2
+  position_offset: 0
+  velocity: 600
+  maxSpeed: 800
+  maxASpeed: 30000
+  maxAngle: 30
+  minAngle: -60
+  coefficient: 1
+  position_Kp: 100
+  position_Ki: 20
+  velocity_Kp: 100
+  velocity_Ki: 20
+  current_Kp: 100
+  current_Ki: 20
+
+################################   TF Parameters    ###########################################
+#PanTilt:
+#  baseHeight: 0.154
+#  elevator_offx: -0.051
+#  elevator_offy: -0.005
+#  elevator_offz: 0.123
+#  elevator_lean: 0.00
+#  supporter_offx: 0.162
+#  supporter_offy: 0.0
+#  supporter_offz: 0.483
+#  supporter_roll: 0.0
+#  supporter_pitch: 0.0
+#  supporter_yaw: 0.0
+#  armbase_offx: 0.15
+#  armbase_offy: 0.0
+#  armbase_offz: 0.131
+#  kinect_offx: 0.02
+#  kinect_offy: -0.015
+#  kinect_offz: 0.14
+#  kinect_roll: 0.0
+#  kinect_pitch: 0.0
+#  kinect_yaw: 0.06
+#  cam1394_offx: 0.033
+#  cam1394_offy: 0.0
+#  cam1394_offz: 0.063
+#  cam1394_roll: 0.01
+#  cam1394_pitch: 0.0
+#  cam1394_yaw: 0.0
+#  kinect_frame: kinect_link
+#  camera1394_frame: camera_1394
