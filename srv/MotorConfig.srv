@@ -1,0 +1,16 @@
+int8 motor_id
+string motor_name
+float64 offset
+int8 anglePidKp
+int8 anglePidKi
+int8 speedPidKp
+int8 speedPidKi
+int8 iqPidKp
+int8 iqPidKi
+float64 max_speed
+float64 max_aspeed
+float64 max_angle
+float64 min_angle
+int8 coefficient
+---
+string result

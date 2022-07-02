@@ -1,0 +1,5 @@
+uint8 motor_id
+string motor_name
+float64 maxSpeed
+---
+string result

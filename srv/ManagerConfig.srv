@@ -1,0 +1,28 @@
+bool runBase
+bool runArm
+bool runPanTilt
+bool runStopButton
+
+string PanTiltComName
+int32 BaudRate
+
+float64 baseLoopRate
+float64 armLoopRate
+float64 panTiltLoopRate
+float64 stopButtonLoopRate
+
+float64 maxLinearSpeed
+float64 maxTurnSpeed
+
+float64 wheelDist
+float64 wheelPerimeter
+
+float64 elevatorUnitHeight
+float64 minElevatorHeight
+float64 maxElevatorHeight
+
+float64 panOffset
+float64 tiltOffset
+
+---
+string result

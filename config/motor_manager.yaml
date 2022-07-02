@@ -1,0 +1,54 @@
+runBase: true
+runArm: true
+BaudRate: 115200
+runStopButton: true
+runPanTilt: true
+PanTiltComName: /dev/ttyUSB0
+StopButtonComName: /dev/ttyUSB1
+baseLoopRate: 10.0
+armLoopRate: 3.0
+panTiltLoopRate: 20.0
+stopButtonLoopRate: 10.0
+maxLinearSpeed: 0.5
+maxTurnSpeed: 0.8
+wheelDist: 0.407
+wheelPerimeter: 0.606
+elevatorUnitHeight: 0.16075
+minElevatorHeight: 0.11
+maxElevatorHeight: 0.766
+panOffset: 0.0
+tiltOffset: 4.0
+StopButton:
+  normalChar: 81
+  stopChar: 25
+pan:
+  # angle 0~2.63861  middle:1.58
+  minAngle: 0
+  position_offset: 0
+  serial_id: 1
+  maxSpeed: 20
+  maxAngle: 150
+  velocity: 10
+  maxASpeed: 15
+  coefficient: 1
+  position_Kp: 100
+  position_Ki: 20
+  velocity_Kp: 100
+  velocity_Ki: 20
+  current_Kp: 100
+  current_Ki: 20
+tilt:
+  serial_id: 2
+  position_offset: 0
+  minAngle: -60
+  velocity: 600
+  maxAngle: 30
+  maxSpeed: 800
+  maxASpeed: 30000
+  coefficient: 1
+  position_Kp: 100
+  position_Ki: 20
+  velocity_Kp: 100
+  velocity_Ki: 20
+  current_Kp: 100
+  current_Ki: 20

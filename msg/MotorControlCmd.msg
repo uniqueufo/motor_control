@@ -1,0 +1,4 @@
+int8 motor_id
+float64 speed
+float64 circle_pose
+float64 max_speed_limit

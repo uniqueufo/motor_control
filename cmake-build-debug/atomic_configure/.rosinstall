@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/lql/catkin_ws/src/motor_control/cmake-build-debug/devel/setup.sh
