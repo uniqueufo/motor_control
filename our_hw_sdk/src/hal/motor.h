@@ -17,12 +17,12 @@ namespace hal {
 class Motor {
  public:
   Motor(const std::string name, int id) : name_(name), id_(id), enable_(true) {}
-  virtual bool init() =0;
+  virtual bool init() = 0;
 
  protected:
   std::string name_;
-   int   id_;
-  bool        enable_; //上电使能
+  int  id_;
+  bool enable_; //上电使能
 };
 }
 

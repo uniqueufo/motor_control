@@ -40,6 +40,7 @@ void SerialDeviceManager::Disconnect() {
     serial_connected_ = false;
   }
 }
+
 void SerialDeviceManager::Terminate() {
   try {
     Disconnect();
@@ -49,12 +50,14 @@ void SerialDeviceManager::Terminate() {
   device_ctl_cfg_.cmd_thread_started_ = false;
   std::terminate();
 }
+
 void SerialDeviceManager::StartCmdThread() {
   device_ctl_cfg_.keep_running_ = true;
   device_ctl_cfg_.cmd_thread_ =
       std::thread(std::bind(&SerialDeviceManager::ControlLoop, this));
   device_ctl_cfg_.cmd_thread_started_ = true;
 }
+
 void SerialDeviceManager::ControlLoop() {
   StopWatch ctrl_sw;
   uint32_t  timeout_iter_num;
@@ -87,13 +90,14 @@ void SerialDeviceManager::ControlLoop() {
       std::cout << "serial device control loop frequency: " << 1.0 / ctrl_sw.toc()
                 << std::endl;
   }
-
 }
+
 SerialDeviceManager::~SerialDeviceManager() {
   Disconnect();
   if (device_ctl_cfg_.cmd_thread_.joinable()) device_ctl_cfg_.cmd_thread_.join();
   device_ctl_cfg_.cmd_thread_started_ = false;
 }
+
 void SerialDeviceManager::SetSerialConfig(SerialConfig serial_config) {
   serial_device_->SetSerialConfig(serial_config);
 }
